@@ -1,0 +1,320 @@
+.integrantes {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.esquerda {
+    text-align: left; /*esquerda*/
+}
+.direita {
+    text-align: right; /*direita*/
+}
+.foto {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.texto {
+    max-width: 600px;
+}
+.texto h2 {
+    margin-bottom: 10px;
+}
+.texto p {
+    margin-top: 0;
+}
+.foto {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;  /*(Espaço abaixo da imagem)*/ 
+    object-fit: cover;
+}
+.texto {
+    text-align: center;  /*(Alinha o texto ao centro)*/ 
+    max-width: 600px;
+} 
+.geral {
+    justify-content: center;
+    text-align: center;
+}
+main {
+    background-color: #eddafd ;
+}
+/*---- MAYARA ---- */
+
+/*-------------------------
+    FORMATAÇÃO TOPO
+------------------------*/
+/*-------------------------
+        FORMATAÇÃO GERAL
+--------------------------*/
+
+html body section.rotina {
+    padding: 3vw 20vw 3vw 20vw;
+}
+html body section.rotina h2 {
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+html body section.rotina div ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+section.alimentacao{
+    background-color: #E8DAFB;
+}
+section.alimentacao h2.centro {
+    text-align: center;
+}
+section.alimentacao div h3 {
+    text-align: center;
+}
+section.alimentacao p {
+    padding: 20px 15vw 0 15vw;
+}
+section.alimentacao div.ruim {
+ background-color: white;
+ padding: 30px;
+ margin: 20px;
+}
+section.alimentacao div.ruim div button{
+    border: none;
+    padding: 10px 24px;
+    font-size: 1.4rem;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+section.alimentacao div.bom {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+}
+section.alimentacao div.bom div button{
+    border: none;
+    padding: 10px 24px;
+    font-size: 1.4rem;
+    margin: 20px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 20px;
+}
+section.diquinha{
+    background-color: white;
+}
+section.diquinha ul li{
+    background-color: white;
+}
+section.diquinha ul {
+    background-color: #E8DAFB ;
+    margin: 1vw;
+}
+section.diquinha ul li p {
+    margin: 0  0 0 20px;
+}
+section.diquinha h3 {
+    margin: 3vw;
+}
+section span {
+    background-color: rgb(102,51,102) ;
+    color: white;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 20px;
+    margin: 30px 30px 0 0;
+    padding: 10px;
+}
+section.diquinha h2 {
+    text-align: center;
+}
+section.telas div.t{
+    background-color:#faecf8;
+    text-align: center;
+    padding: 30px;
+}
+section.ambiente h2{
+    margin: 2vw;
+}
+section.ambiente h3 {
+    background-color:#faecf8;
+}
+section.ambiente p {
+    margin: 10px;
+}
+section.rotina ul button {
+    background-color: #E8DAFB;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*----- BRUNO -----*/
+
+/*-------------------------
+    FORMATAÇÃO TOPO
+------------------------*/
+/*-------------------------
+        FORMATAÇÃO GERAL
+--------------------------*/
+
+section.alimentacao{
+    background-color: #E8DAFB;
+}
+
+/*----- JEANA -----*/
+main .curiosa {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) no-repeat center center;
+}
+
+/*-----JEOVANA -----*/
+
+main {
+    background: linear-gradient(rgba(229, 156, 252, 0.5), rgba(229, 156, 252, 0.5)) no-repeat center center;
+}
+
+section.banner p {
+     display: flex;
+     justify-content: center;
+}
+ 
+section.estagio strong {
+     font-weight: bold; 
+} 
+section.estagio p {
+    border: none;
+    padding: 20px;
+    color: black;
+    border-radius: 20px;
+}
+
+section.lista nav ol li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+    margin-bottom: 7px;
+    color: black;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 9px;
+    border-bottom: 1px solid black;
+}
+
+
+section  nav .sono:hover {
+    background: rgba(197, 100, 226, 0.5);
+}
+
+section nav .rem:hover {
+    background: rgba(197, 100, 226, 0.5);
+}
+
+section nav .durante:hover {
+    background: rgba(197, 100, 226, 0.5);
+}
+
+section nav .est:hover {
+    background: rgba(197, 100, 226, 0.5);
+}
+
+section nav .importante:hover {
+    background: rgba(197, 100, 226, 0.5);
+}
+
+section.estagio {
+    padding: 19px 29px;
+    font-size: 1.4rem;
+    margin: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+section.estagio h2  {
+    display: flex;
+    justify-content: center;
+}
+
+section.estagio p {
+    padding: 20px 1vw 0 1vw;
+}                   
+ 
+ section.lista h2 {
+     text-align: center;
+ }
+ 
+ 
+ div.paragrafo strong {
+     font-weight: bolder;
+ }
+ 
+ div.vertical strong {
+     font-weight: bolder;
+ }
+ 
+ div.distancia strong {
+     font-weight: bolder;
+ }
+ 
+ div.espacamento strong {
+     font-weight: bolder;
+ }
+ 
+ section.borda strong {
+     font-weight: bolder;
+ }
+ 
+ div.linha strong {
+     font-weight: bolder;
+ }
+ 
+ section.estagio  p {
+     width: 300px;
+    /* border: 1px solid #000; */
+ }
+
+div.black h3 {
+    display: flex;
+    justify-content: center;
+}
+ 
+section.estagio div h3 {
+     margin: 2vw 0 2vw 0;
+}
+ 
+section.estagio {
+    background-color: white;
+    border: 1px solid #000;
+    margin-top: 5vw;
+}
+ 
+section.estagio h2 {
+    background: white;
+    background: rgba(197, 100, 226, 0.3);
+    padding: 1vw;
+}
+
+section.estagio div.black p {
+    margin: 0 0 0 33vw;
+}
+ 
+div.sublinhado p {
+     text-align: center;
+     margin-left: 36vw;
+}
+ 
+section.alinhamento h2 {
+     font-size: 2rem;
+}
+ 
+section.alinhamento strong {
+     font-weight: bolder;
+}
+ 
+section.alinhamento a {
+    text-decoration: none;
+    color: black;
+}
